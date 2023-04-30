@@ -2,13 +2,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
-
-body {
-    background:#d0ccc8;
-    color:rgb(0, 0, 0);
-    font-family: 'Ubuntu Mono', monospace;
-} 
-
 * {
   margin: 0;
   padding: 0;
@@ -20,3 +13,24 @@ body {
 
 }
 
+:root{
+--color-bg:#d3d0cb;
+--color-bg-variant:#2e2e2e;
+--color-black:#000000;
+}
+
+html{
+scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar{
+  width:1em;
+}
+
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  background: var(--color-bg);
+  color:var(--color-black);
+  line-height:1.7;
+} 
